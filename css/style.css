@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+.container{
+  width: 1400px;
+  background: rgb(17, 153, 171);
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+.box {
+  border: 1 solid rgb(12, 92, 11);
+  width: 1200px;
+  text-align: center;
+}
+.box-results {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.results-item {
+  width: 250px;
+  height: 400px;
+}
+.results-item img {
+  width: 50%;
+  height: 150px
+}
